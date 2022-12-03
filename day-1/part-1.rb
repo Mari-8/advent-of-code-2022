@@ -1,4 +1,4 @@
-require "csv"
+
 require_relative "elf"
 
 elf_chunks = File.read('elves.csv').split("\n\n")
